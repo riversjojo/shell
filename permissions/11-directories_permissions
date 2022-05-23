@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod +x root/shell/permissions
+chmod +x /root/shell/permissions
