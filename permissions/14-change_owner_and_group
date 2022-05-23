@@ -1,2 +1,2 @@
 #!/bin/bash
-chown -R vincent:staff /root/shell/permissions 
+chown -R vincent /root/shell/permissions 
