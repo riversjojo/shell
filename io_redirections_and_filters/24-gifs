@@ -1,2 +1,2 @@
 #!/bin/bash
-ls *.{gif}
+find . -iregex '.*\.\(gif)' -printf '%f\n'
