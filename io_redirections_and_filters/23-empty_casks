@@ -1,2 +1,2 @@
 #!/bin/bash
-find -type f -empty 
+find printf -type f -empty "%f/n"
