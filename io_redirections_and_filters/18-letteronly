@@ -1,2 +1,2 @@
 #!/bin/bash
-sed 
+ls -d 'a,b,c,d,e,f,g,h,i,j,k,l,m,n,o' /etc/ssh/sshd_config
