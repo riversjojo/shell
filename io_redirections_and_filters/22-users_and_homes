@@ -1,2 +1,2 @@
 #!/bin/bash
-getend passwd
+getend passwd | cut -d: -f6
