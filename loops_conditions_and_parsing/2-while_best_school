@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 #A while loop which will output "Best School" ten times
-x=0
-while ($x < 10)
+x=1
+while [$x - le 10]
 do
-       	echo "Best School"       
+       	echo "Best School"
+	(( x++ ))	
 done
