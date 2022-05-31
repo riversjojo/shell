@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 #This script prints out "Best School" ten times.
 max=10
-for (( i=1; i <= $max; ++i ))
+for (( i=1; i <= max; ++i ))
 do
 echo "Best School"
 done
