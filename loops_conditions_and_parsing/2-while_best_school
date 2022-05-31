@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+#A while loop which will output "Best School" ten times
 x=0
 while ($x < 10)
 do
