@@ -13,5 +13,7 @@ do
 	  ((i==7))
   then 
 	  echo "good luck"
+  else
+
   fi
 done
