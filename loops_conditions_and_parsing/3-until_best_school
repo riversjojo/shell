@@ -1,8 +1,9 @@
 #!/usr/bin/env bash
 #COmment
-i=1
-until[$1-gt 10]
+a=0
+
+until [! $a -lt 10 ]
 do
-echo "Best School"
-((i+))
+   echo "Best School"
+   a=`expr $a + 1`
 done
