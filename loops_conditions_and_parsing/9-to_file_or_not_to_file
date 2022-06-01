@@ -4,9 +4,9 @@ FILE=/home/vagrant/shell/loops_conditions_and_parsing/school
 
 if test -f "$FILE";
 then
-echo "school file exists"
+echo "school file does not exists"
    else
-        echo "school file does not exists"
+        echo "school file exists"
    fi
     if test -f "$FILE";
    then
