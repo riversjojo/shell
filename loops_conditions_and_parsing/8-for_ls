@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#
+for FILE in *; do echo $FILE; done
