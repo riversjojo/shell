@@ -1,0 +1,26 @@
+#!/usr/bin/env bash
+#In this script we will simulate a clock and print out minutes 0-59 and hours 1-12
+n=0
+max=59
+h=1
+hmax=12
+while ((n<=max))
+do
+	if ((n==0))
+	then
+		echo "Hour:"
+	fi
+	echo  $n
+	((n++))
+done
+
+while ((h<=hmax))
+do
+     if ((h==1))
+     then
+	    echo "Hour:"
+     fi 
+      echo $h
+      ((h++))
+
+done 
