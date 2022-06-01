@@ -5,7 +5,6 @@ FILE=/home/vagrant/shell/loops_conditions_and_parsing/school
 if test -f "$FILE";
 then
 echo "school file exists"
-echo "school is a regular file"
    else
         echo "school file does not exists"
    fi
@@ -15,7 +14,4 @@ echo "school is a regular file"
    else
         echo "school file is not empty"
    fi
-if test -f "$FILE";
-then
-	echo "school is a regular file"
-fi
+
