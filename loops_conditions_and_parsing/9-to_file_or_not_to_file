@@ -5,13 +5,16 @@ FILE=school
 if test -f "$FILE";
 then
 echo "school file exists"
-   else
-        echo "school file does not exists"
-   fi
-    if test -s "$FILE";
+
+   if test -s "$FILE";
    then
         echo "school file is empty"
    else
         echo "school file is not empty"
+
+
+   else
+        echo "school file does not exists"
    fi
+    
 
