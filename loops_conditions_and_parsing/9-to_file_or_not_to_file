@@ -18,9 +18,9 @@ echo "school file exists"
 	   echo "school is a regular file"
   fi
   
-   if test -d "$FILE";
+  # if test -d "$FILE";
 
-   fi
+  # fi
  else
         echo "school file does not exist"
    
