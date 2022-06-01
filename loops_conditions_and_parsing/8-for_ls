@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 #
-for dir in */; 
+
+for n in *
 do
-	echo "$dir"
+	echo $n | cut -d'/' -f2 | cut -d '-' -f2
 done
