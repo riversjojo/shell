@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 #In this script we will simulate a clock and print out minutes 0-59 and hours 1-12
-max=58
 h=0
 hmax=12
 string="Hour:"
