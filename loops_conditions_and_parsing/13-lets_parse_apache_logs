@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+#
+FILE="apache-acess.log"
+if [ -e $FILE ];
+then
+
+awk '{print $1 "" $9}' $FILE
+
+fi
