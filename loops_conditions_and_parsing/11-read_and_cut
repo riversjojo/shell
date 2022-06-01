@@ -5,7 +5,7 @@ while IFS=: read -r username userid homedir
 
 
    do
-   echo $username":"$userid$homedir
+   echo "$username"":""$userid""$homedir"
 
 done < /etc/passwd
 
