@@ -2,15 +2,16 @@
 #COmment
 FILE=school
 
-if test -f "$FILE";
-then
-echo "school file exists"
-
 if test -d "$FILE";
      then
              echo "school file exists"
      fi
 
+
+
+if test -f "$FILE";
+then
+echo "school file exists"
 
   if test -s "$FILE";
    then
