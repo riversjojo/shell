@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #COmment
-FILE=/home/vagrant/shell/loops_conditions_and_parsing/school
+FILE=school
 
 if test -f "$FILE";
 then
