@@ -2,10 +2,6 @@
 #COmment
 FILE=school
 
-if test -d "$FILE";
-     then
-             echo "school file exists"
-
 if test -f "$FILE";
 then
 echo "school file exists"
@@ -24,4 +20,3 @@ echo "school file exists"
    else
         echo "school file does not exist"
 fi    
-fi
