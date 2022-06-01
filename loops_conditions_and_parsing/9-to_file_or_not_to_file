@@ -2,7 +2,7 @@
 #COmment
 FILE=school
 
-if test -f "$FILE";
+if test -e "$FILE";
 then
 echo "school file exists"
 
