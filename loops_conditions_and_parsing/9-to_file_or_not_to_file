@@ -13,12 +13,12 @@ echo "school file exists"
         echo "school file is empty"
 
   fi
- # if test -f "$FILE";
- #  then 
-#	   echo "school is a regular file"
- # fi
+  if test -f "$FILE";
+   then 
+	   echo "school is a regular file"
+  fi
   
-#if test -d "$FILE";
+if test -d "$FILE";
 
 
  else
