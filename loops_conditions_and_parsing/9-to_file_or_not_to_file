@@ -8,7 +8,7 @@ echo "school file exists"
    else
         echo "school file does not exist"
    fi
-    if test -s "$FILE";
+    if test -f | -s "$FILE";
    then
         echo "school file is not empty"
    else
