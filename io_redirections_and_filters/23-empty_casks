@@ -1,2 +1,2 @@
 #!/bin/bash
-find ./* -type d,f -empty | cut -d '/'
+find -maxdepth 3 -empty  -printf "%f\n"
