@@ -1,4 +1,4 @@
-#!/usr/bin/env dash
+#!/usr/bin/env bash
 #
 while IFS=: read -r username password userid groupid comment homedir cmdshell
  
