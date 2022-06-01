@@ -6,12 +6,12 @@ if test -f "$FILE";
 then
 echo "school file exists"
    else
-        echo "school file does not exist"
+        echo "school file exist"
    fi
-    if test -f | -s "$FILE";
+    if test -f "$FILE";
    then
         echo "school file is not empty"
    else
-        echo "school file is empty"
+        echo "school file is not empty"
    fi
 
