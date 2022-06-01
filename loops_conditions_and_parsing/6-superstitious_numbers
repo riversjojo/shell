@@ -3,7 +3,7 @@
 
 n=1
 max=20
-while (( $n<=$max))
+while ((n<=max))
 do
    echo $n
    ((n++))
@@ -11,7 +11,7 @@ do
    case $n in
 	   "5" ) echo "bad luck from China"
 	      ;;
-	     "10" ) echo "bad luck from Japan"
+	   "10" ) echo "bad luck from Japan"
 		     ;;
            "18" ) echo "bad luck from Italy"
 		   ;;
