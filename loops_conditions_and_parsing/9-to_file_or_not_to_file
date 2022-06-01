@@ -6,7 +6,7 @@ if test -f "$FILE";
 then
 echo "school file exists"
    else
-        echo "school file exist"
+        echo "school file exists"
    fi
     if test -f "$FILE";
    then
