@@ -2,5 +2,4 @@
 #
 file="apache-access.log"
 
-awk '{$1, $9}' $file | sort -n
-#| uniq -c | sort -rn
+awk '{$1, $9}' $file | sort |  uniq -c | sort -nr
