@@ -2,6 +2,6 @@
 #
 file="apache-access.log"
 
-awk '{print $1}' | sort | uniq -c | sort -nr | awk '{printf "%-8s ==> %s\n", $2, $1}' | head -10 
+#awk '{print $1}' | sort | uniq -c | sort -nr | awk '{printf "%-8s ==> %s\n", $2, $1}' | head -10 
 
-#awk '{print $1}' $file | sort | uniq
+awk '{print $1}' $file | sort | uniq
