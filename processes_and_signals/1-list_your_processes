@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 #Script that displays lists of currently running processes
 ps aux
 #| less
