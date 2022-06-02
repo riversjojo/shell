@@ -2,4 +2,4 @@
 #
 file="apache-access.log"
 
-awk '{$3, $9}' $file
+awk '{$4, $9}' $file
