@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
 #
-file="apache-access.log"
 
-awk '{$1, $9}' $file | sort |  uniq -c | sort -nr
+awk '{$1, $9}' apache-access.log | sort |  uniq -c | sort -nr
